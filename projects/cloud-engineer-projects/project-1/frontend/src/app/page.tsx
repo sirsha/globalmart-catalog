@@ -1,16 +1,16 @@
-import Main from "@/components/main/Main";
+import RepairShopMain from "@/components/main/Main";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "My todo app",
-  description: "Todo app with nextjs and tailwindcss hosted on AWS Amplify",
-  keywords: "nextjs, tailwindcss, aws, amplify, typescript, react, todo, app",
+  title: "QuickFix Repair Shop Management",
+  description: "Professional repair shop management system with job tracking, priority management, and customer information",
+  keywords: "repair shop, management, nextjs, tailwindcss, job tracking, maintenance",
 };
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center p-24 text-center ">
-      <Main />
+    <main className="flex min-h-screen flex-col items-center p-6 bg-gray-50">
+      <RepairShopMain />
     </main>
   );
 }
