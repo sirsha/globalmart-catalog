@@ -1,0 +1,7 @@
+version: 1
+applications:
+  - frontend:
+      appRoot: projects/cloud-engineer-projects/project-1/frontend
+      framework: nextjs
+      buildCommand: npm run build
+      startCommand: npm run start
