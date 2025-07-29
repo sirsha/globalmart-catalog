@@ -1,7 +1,4 @@
-# Maltimart Ecommerce
-
-## 📌 Live Demo
-https://multimart-ecommerce.onrender.com
+# CartCraft Ecommerce
 
 ## 😎 Features
 
@@ -25,7 +22,7 @@ From your command line, first clone this repo:
 
 ```
 # Clone this repository
-$ https://github.com/0mar-helal/multimart-react-ecommerce.git
+$ git clone https://github.com/techwithlucy/ztc-projects.git
 
 # Go into the repository
 $ cd multimart-react-ecommerce
